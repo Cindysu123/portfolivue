@@ -1,5 +1,9 @@
 # portfoliovue
 
+This is a website where I put all my paintings <br />
+Coded with Vue.js <br />
+![Preview](https://github.com/Cindysu123/portfolivue/blob/master/1.jpg?raw=true)
+
 ## Project setup
 ```
 npm install
