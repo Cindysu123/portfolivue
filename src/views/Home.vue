@@ -2,13 +2,8 @@
   <div class="home">
     <transition name="fade" appear>
       <div class="container">
-<<<<<<< HEAD
         <h1 class="h1text">HELLO</h1>
         <h2 class="h2text">Welcome To My Portfolio :)</h2>
-=======
-        <h1 class="h1text">HELLO  :)</h1>
-        <h2 class="h2text">My name is Cindy and this is where I put all my paintings</h2>
->>>>>>> 1159c4f35a18f1da92ddf0625e4b811c71a3b7f1
       </div>
     </transition>
     <threejsBg/>

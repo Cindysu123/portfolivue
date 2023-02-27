@@ -2,14 +2,10 @@
   <transition name="fade" appear>
     <div id="nav">
       <router-link to="/">Home</router-link>
-<<<<<<< HEAD
       <!-- <router-link to="/id">Industrial Design</router-link> -->
       <router-link to="/ui">UI Design</router-link>
       <router-link to="/photoshop">Painting</router-link>
       <!-- <router-link to="/model">Other work</router-link> -->
-=======
-      <router-link to="/photoshop">Painting</router-link>
->>>>>>> 1159c4f35a18f1da92ddf0625e4b811c71a3b7f1
     </div>
   </transition>
   <router-view/>
