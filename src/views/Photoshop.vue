@@ -1,7 +1,7 @@
 <template>
   <transition name="fade" appear>
     <div class="ps">
-        <Display type="photoshop" total="10"/>
+        <Display type="photoshop" total="12"/>
     </div>
   </transition>
 </template>

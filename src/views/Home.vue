@@ -3,7 +3,7 @@
     <transition name="fade" appear>
       <div class="container">
         <h1 class="h1text">HELLO</h1>
-        <h2 class="h2text">My Name is Cindy And This is My Portfolio</h2>
+        <h2 class="h2text">Welcome To My Portfolio :)</h2>
       </div>
     </transition>
     <threejsBg/>
@@ -29,13 +29,13 @@ body {
 }
 .h1text {
   font-size: 100px;
-  color: rgb(88, 66, 185);
+  color: #ededed;
   font-weight: 800;
 }
 .h2text {
   font-size: 40px;
   margin-top: 0;
-  color: rgb(88, 66, 185);
+  color: #ededed;
   font-weight: 600;
 }
 </style>

@@ -11,9 +11,9 @@
                 <div class="right">
                     <img :src="img_url" alt="image" class="uiImage">
                     <div class="description">{{ description }}</div>
-                    <div v-if="prototype.btnDisplay" class="visit">
+                    <!-- <div v-if="prototype.btnDisplay" class="visit">
                         <a class="visit_test" :href="prototype.link" target="blank">Visit the website here！</a>
-                    </div>
+                    </div> -->
                 </div>
             </transition>
         </div>
@@ -88,9 +88,9 @@ export default {
                 }
             } else if (this.project === "volunteer"){
                 return {
-                    width: "300px",
-                    height: "500px",
-                    src:"https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxHaHPIhQn1uoU2QnCyua2K%2FUntitled%3Fnode-id%3D1%253A2%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A2",
+                    width: "600px",
+                    height: "450px",
+                    src:"https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Foy9lBpGHw6pJzaMf0wGUMo%2FIoT%3Fnode-id%3D85%253A3%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D155%253A289%26show-proto-sidebar%3D1",
                     btnDisplay: false
                 }
             } else if (this.project === "CESA"){
@@ -107,7 +107,7 @@ export default {
             if(this.project === "sky"){
                 return "Sky's The Limit tackles the pervasiveness of climate change by offering users the ability to buy plant based produce, while engaging in eco-friendly activities like social distancing cleanups. Additionally, our unique star points system grants discounts in our marketplace where companies can advertise services, products and discounts, acting as an incentive for users to be environmentally aware about their daily choices."
             } else if (this.project === "volunteer"){
-                return "Volunteer Navigator is a mobile platform that allows members of the community to find local nonprofit volunteering opportunities that cater toward their interests and the needs of the nonprofits."
+                return "Internet Of Thing is a group project from Design Innovation team which we design an educational platform for students studying Computer Engineering to learn knowledge related to electrical components and microcontroller. Students are able to create their own account and submit homework and create discussion on related topics."
             } else if (this.project === "CESA"){
                 return "CSEA(Chinese Engineering Student Association) is an association that organizes diverse activities to enrich student's campus life and share high quality academic and career resources to help students achieve their goals."
             }
@@ -125,13 +125,9 @@ export default {
                     ]
             } else if (this.project === "volunteer"){
                 return [
-                    require('../assets/img/figma/project2/1.jpg'),
-                    require('../assets/img/figma/project2/2.jpg'),
-                    require('../assets/img/figma/project2/3.jpg'),
-                    require('../assets/img/figma/project2/4.jpg'),
-                    require('../assets/img/figma/project2/5.jpg'),
-                    require('../assets/img/figma/project2/6.jpg'),
-                    require('../assets/img/figma/project2/7.jpg'),
+                    require('../assets/img/figma/project2/1.png'),
+                    require('../assets/img/figma/project2/2.png'),
+                    require('../assets/img/figma/project2/3.png')
                     ]
             } else if (this.project === "CESA"){
                 return [
