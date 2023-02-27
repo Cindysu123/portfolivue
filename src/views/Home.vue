@@ -29,21 +29,13 @@ body {
 }
 .h1text {
   font-size: 100px;
-<<<<<<< HEAD
   color: #ededed;
-=======
-  color: rgb(88, 66, 185);
->>>>>>> 1159c4f35a18f1da92ddf0625e4b811c71a3b7f1
   font-weight: 800;
 }
 .h2text {
   font-size: 40px;
   margin-top: 0;
-<<<<<<< HEAD
   color: #ededed;
-=======
-  color: rgb(88, 66, 185);
->>>>>>> 1159c4f35a18f1da92ddf0625e4b811c71a3b7f1
   font-weight: 600;
 }
 </style>
